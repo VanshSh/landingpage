@@ -5,14 +5,14 @@ import Logo from '../public/logo.svg'
 const Navigation = () => {
     const [isNavOpen, setIsNavOpen] = useState(false)
     return (
-        <div className='flex flex-1 items-center justify-center  bg-red-50 py-4 z-40 p-3 sticky top-0'>
-            <div className='flex-none justify-center bg-red-900 order-1 lg:-order-2 j lg:justify-start  md:flex-grow md:justify-start  '>
+        <div className='flex flex-1 items-center gap-5  bg-red-50 py-4 p-4 z-40  sticky top-0'>
+            <div className='flex flex-none order-1  md:flex-grow md:justify-start lg:-order-2 sm:flex-grow sm:justify-start'>
                 <Image src={Logo} height={35} width={60} />
             </div>
             <nav className='grow mx-5'>
                 <section className='MOBILE-MENU flex lg:hidden justify-start '>
                     <div
-                        className='HAMBURGER-ICON bg-red-200 space-y-2 py-3 order-2 lg:-order-1 md:flex-grow md:justify-start '
+                        className='HAMBURGER-ICON space-y-2 py-3 order-2 lg:-order-1 md:flex-grow md:justify-start'
                         onClick={() => setIsNavOpen((prev) => !prev)}
                     >
                         <span className='block h-0.5 w-8  bg-black'></span>

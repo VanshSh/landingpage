@@ -1,55 +1,95 @@
-import { BsInstagram, BsFacebook, BsTwitter, BsPinterest } from 'react-icons/bs'
+import {
+    BsInstagram,
+    BsFacebook,
+    BsTwitter,
+    BsPinterest,
+    BsApple,
+} from 'react-icons/bs'
+import { AiFillAndroid } from 'react-icons/ai'
 import Link from 'next/link'
+
 const Footer = () => {
     return (
-        <div className='bg-black text-white px-4 py-8'>
+        <footer className='lg:bg-red- bg-black text-white pt-14 px-5 pb-11'>
             <div className='text-center'>
-                <p className='text-white font-bold text-5xl'>
+                <p className='text-white text-5xl font-bold '>
                     Get the free app
                 </p>
-                <div className='pt-10'>
-                    <button className='bg-white text-black my-2 px-12 py-2 text-2xl rounded mx-5'>
-                        iOS
+                <div className='pt-10 flex flex-1 justify-center items-center flex-wrap gap-3 '>
+                    <button className='bg-white rounded-md text-black px-16 text-3xl py-2'>
+                        <BsApple />
                     </button>
-                    <button className='bg-white text-black px-12 py-2 text-2xl rounded mx-5'>
-                        Android
+                    <button className='bg-white rounded-md text-black px-16 text-3xl py-2'>
+                        <AiFillAndroid />
                     </button>
                 </div>
             </div>
-
-            <div className='flex-1 flex justify-center items-center gap-6 pt-20 pb-5 text-3xl'>
+            <div className='text-4xl flex flex-1 justify-center items-center my-10 gap-x-5 '>
                 <BsInstagram />
                 <BsFacebook />
                 <BsTwitter />
                 <BsPinterest />
             </div>
-            <div className='text-white flex flex-1 justify-between gap-4 w-fit m-auto pt-5  flex-wrap items-center'>
-                <div className='text-center p-4 mx-5'>
-                    <p>Advertising enquries</p>
-                    <p className='font-bold'>advertising@team.com</p>
-                </div>
-                <div className='text-center p-4 mx-5'>
-                    <p>Advertising enquries</p>
-                    <p className='font-bold'>advertising@team.com</p>
-                </div>
-                <div className='text-center p-4 mx-5'>
-                    <p>Advertising enquries</p>
-                    <p className='font-bold'>advertising@team.com</p>
-                </div>
-            </div>
 
-            <div className='flex flex-1 flex-wrap pt-10 justify-center items-center gap-4'>
-                <p>Home</p>
-                <p>About</p>
-                <p>Community</p>
-                <p>Blogs</p>
-                <p>Career</p>
-                <p>Privacy</p>
-                <p>Terms</p>
-                <p>Downloads</p>
-                <p> &#169; NownadMe </p>
+            <div className='w-fit  m-auto my-10 flex flex-1 flex-wrap justify-center gap-x-20'>
+                <div className='text-white  text-center py-5 '>
+                    <p className='px-5'>Advertising enquiries</p>
+                    <p className='font-bold px-5'>@advertising@team.com</p>
+                </div>
+                <div className='text-white  text-center py-5 '>
+                    <p className='px-5'>Advertising enquiries</p>
+                    <p className='font-bold px-5'>@advertising@team.com</p>
+                </div>
+                <div className='text-white  text-center py-5 '>
+                    <p className='px-5'>Advertising enquiries</p>
+                    <p className='font-bold px-5'>@advertising@team.com</p>
+                </div>
             </div>
-        </div>
+            <div>
+                <ul className='flex-1  flex justify-center gap-x-5  flex-wrap '>
+                    <li className='mb-5'>
+                        <Link href='/'>
+                            <a>Home</a>
+                        </Link>
+                    </li>
+                    <li className='mb-5'>
+                        <Link href='/'>
+                            <a>About</a>
+                        </Link>
+                    </li>
+                    <li className='mb-5'>
+                        <Link href='/'>
+                            <a>Blogs</a>
+                        </Link>
+                    </li>
+                    <li className='mb-5'>
+                        <Link href='/'>
+                            <a>Community</a>
+                        </Link>
+                    </li>
+                    <li className='mb-5'>
+                        <Link href='/'>
+                            <a>Careers</a>
+                        </Link>
+                    </li>
+                    <li className='mb-5'>
+                        <Link href='/'>
+                            <a>Download</a>
+                        </Link>
+                    </li>
+                    <li className='mb-5'>
+                        <Link href='/'>
+                            <a>Sitemap</a>
+                        </Link>
+                    </li>
+                    <li className='mb-5'>
+                        <Link href='/'>
+                            <a>&#169; NownadMe</a>
+                        </Link>
+                    </li>
+                </ul>
+            </div>
+        </footer>
     )
 }
 

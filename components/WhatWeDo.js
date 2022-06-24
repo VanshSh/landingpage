@@ -5,56 +5,45 @@ import Share from '../public/share.png'
 import Pods from '../public/pods.png'
 const WhatWeDo = () => {
     return (
-        <div className='max-w-screen-xl m-auto mt-20 '>
-            <div className='grid grid-row md:grid-cols-2'>
-                <div className='text-center '>
-                    <h1 className='text-7xl  w-1/2 m-auto py-3 text-red-900 font-semibold'>
-                        Meet
-                    </h1>
-                    <p className='text-md w-1/2 m-auto   font-semibold'>
-                        Discover women nearby who are at a similar stage in
-                        life.
-                    </p>
-                    <div className=' my-10'>
-                        <Image src={Meet} height={370} width={340} />
-                    </div>
-                </div>
-                <div className='text-center '>
-                    <h1 className='text-7xl  w-1/2 m-auto py-3 text-red-900 font-semibold'>
-                        Group
-                    </h1>
-                    <p className='text-md w-1/2 m-auto   font-semibold'>
-                        Join groups and find communities with common interests.
-                    </p>
-                    <div className=' my-10'>
-                        <Image src={Groups} height={370} width={340} />
-                    </div>
-                </div>
-                <div className='text-center '>
-                    <h1 className='text-7xl  w-1/2 m-auto py-3 text-red-900 font-semibold'>
-                        Share
-                    </h1>
-                    <p className='text-md w-1/2 m-auto   font-semibold'>
-                        Ask questions, get advice and share stories across
-                        meaningful topics.
-                    </p>
-                    <div className=' my-10'>
-                        <Image src={Share} height={370} width={340} />
-                    </div>
-                </div>
-                <div className='text-center '>
-                    <h1 className='text-7xl  w-1/2 m-auto py-3 text-red-900 font-semibold'>
-                        Pods
-                    </h1>
-                    <p className='text-md w-1/2 m-auto   font-semibold'>
-                        Join live audio conversations hosted by experts.
-                    </p>
-                    <div className=' my-10'>
-                        <Image src={Pods} height={370} width={340} />
-                    </div>
-                </div>
-            </div>
-        </div>
+        <section className='grid lg:grid-cols-2 grid-rows-2  lg:p-20 sm:p-0 '>
+            <section className=' px-2 '>
+                <h2 className='text-center text-[#7f0924] m-auto w-fit px-4 font-bold mb-3 text-[78px] mt-12  '>
+                    Meet
+                </h2>
+                <p className='mt-4 text-[20px] w-fit lg:m-auto lg:w-2/3 text-center '>
+                    Discover women nearby who are at a similar stage in life.
+                </p>
+                <Image src={Meet} />
+            </section>
+            <section className='text-center px-2 '>
+                <h2 className='text-[#7f0924] m-auto w-fit px-8 font-bold mb-3 text-[78px] mt-12  '>
+                    Groups
+                </h2>
+                <p className='mt-4 text-[20px] w-fit lg:m-auto lg:w-2/3 text-center'>
+                    Join groups and find communities with common interests.
+                </p>
+                <Image src={Groups} />
+            </section>
+            <section className='text-center px-2 '>
+                <h2 className='text-[#7f0924] m-auto w-fit px-8 font-bold mb-3 text-[78px] mt-12  '>
+                    Share
+                </h2>
+                <p className='mt-4 text-[20px] w-fit lg:m-auto lg:w-2/3 text-center'>
+                    Ask questions, get advice and share stories across
+                    meaningful topics.
+                </p>
+                <Image src={Share} />
+            </section>
+            <section className='text-center px-2 '>
+                <h2 className='text-[#7f0924] m-auto w-fit px-8 font-bold mb-3 text-[78px] mt-12  '>
+                    Pods
+                </h2>
+                <p className='mt-4 text-[20px] w-fit lg:m-auto lg:w-2/3 text-center '>
+                    Join live audio conversations hosted by experts.
+                </p>
+                <Image src={Pods} />
+            </section>
+        </section>
     )
 }
 

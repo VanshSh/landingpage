@@ -7,7 +7,7 @@ const CommunityType = () => {
                     listen, share information and offer valuable advice.
                 </h2>
             </div>
-            <div className='flex flex-1 flex-wrap py-6 items-center justify-between'>
+            <div className='flex  flex-1 flex-wrap py-6 items-center justify-around'>
                 <div>
                     <div className='p-1'>
                         <div className='bg-red-50 text-black rounded-full p-10'>
