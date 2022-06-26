@@ -30,8 +30,8 @@ const UserReviewCarousel = () => {
     }
 
     return (
-        <div className='bg-red-100'>
-            <div className='py-14 w-2/3 m-auto'>
+        <section className='bg-red-100'>
+            <div className='my-20 py-16 lg:mx-44 mx-5'>
                 <AliceCarousel
                     mouseTracking
                     animationDuration={1500}
@@ -44,7 +44,7 @@ const UserReviewCarousel = () => {
                     autoPlay
                 />
             </div>
-        </div>
+        </section>
     )
 }
 
