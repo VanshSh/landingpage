@@ -59,22 +59,29 @@ const CommunityBlogs = () => {
         },
     }
     return (
-        <div>
-            <p className='mt-5 text-center font-bold text-4xl pt-2'>
+        <section>
+            <p className='mt-10 text-center text-3xl font-bold'>
                 Community
+                <span className='inline-block w-14 h-9 align-middle ml-3 text-xl rounded-tr-xl bg-gray-100'>
+                    ...
+                </span>
             </p>
-            <AliceCarousel
-                mouseTracking
-                animationDuration={1500}
-                infinite
-                autoPlayInterval={1000}
-                disableDotsControls
-                disableButtonsControls
-                responsive={responsive}
-                items={blogsComponent}
-                autoPlay
-            />
-        </div>
+            <div className='mx-12'>
+                <div className='pt-6'>
+                    <AliceCarousel
+                        mouseTracking
+                        animationDuration={1500}
+                        infinite
+                        autoPlayInterval={1000}
+                        disableDotsControls
+                        disableButtonsControls
+                        responsive={responsive}
+                        items={blogsComponent}
+                        autoPlay
+                    />
+                </div>
+            </div>
+        </section>
     )
 }
 

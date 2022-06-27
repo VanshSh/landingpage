@@ -19,8 +19,8 @@ const CommunityType = () => {
                             <a>
                                 <Image
                                     src={Fertility}
-                                    width={100}
-                                    height={100}
+                                    width={140}
+                                    height={140}
                                 />
                             </a>
                         </Link>
@@ -33,8 +33,8 @@ const CommunityType = () => {
                             <a>
                                 <Image
                                     src={Pregnancy}
-                                    width={100}
-                                    height={100}
+                                    width={140}
+                                    height={140}
                                 />
                             </a>
                         </Link>
@@ -47,8 +47,8 @@ const CommunityType = () => {
                             <a>
                                 <Image
                                     src={Motherhood}
-                                    width={100}
-                                    height={100}
+                                    width={140}
+                                    height={140}
                                 />
                             </a>
                         </Link>
@@ -61,8 +61,8 @@ const CommunityType = () => {
                             <a>
                                 <Image
                                     src={Menopause}
-                                    width={100}
-                                    height={100}
+                                    width={140}
+                                    height={140}
                                 />
                             </a>
                         </Link>
