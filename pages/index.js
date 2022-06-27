@@ -12,7 +12,6 @@ import WhatWeDo from '../components/WhatWeDo'
 export default function Home() {
     return (
         <>
-            <Navigation />
             <Banner />
             <CommunityType />
             <CommunityBlogs />
@@ -20,7 +19,6 @@ export default function Home() {
             <WhatWeDo />
             <UserReviewCarousel />
             <NewsReview />
-            <Footer />
         </>
     )
 }

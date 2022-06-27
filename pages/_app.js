@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import '../styles/globals.css'
 import React, { useEffect } from 'react'
+import Navigation from '../components/Navigation'
+import Footer from '../components/Footer'
 
 function MyApp({ Component, pageProps }) {
     const [showing, setShowing] = React.useState(false)
@@ -25,7 +27,9 @@ function MyApp({ Component, pageProps }) {
                         content='Anonymity at Now&amp;Me'
                     />
                 </Head>
+                <Navigation />
                 <Component {...pageProps} />
+                <Footer />
             </>
         )
     }

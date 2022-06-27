@@ -17,7 +17,7 @@ const CommunityBlogs = () => {
             title: 'Reinvent yourself...',
         },
         {
-            title: 'Reinvent yourself...',
+            title: 'Know yourself...',
         },
         {
             title: 'Reinvent yourself...',
@@ -62,7 +62,7 @@ const CommunityBlogs = () => {
         <section>
             <p className='mt-10 text-center text-3xl font-bold'>
                 Community
-                <span className='inline-block w-14 h-9 align-middle ml-3 text-xl rounded-tr-xl bg-gray-100'>
+                <span className='inline-block w-14 h-9 align-middle ml-3 text-xl rounded-tr-xl bg-gray-100  '>
                     ...
                 </span>
             </p>

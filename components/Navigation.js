@@ -1,11 +1,14 @@
 import Image from 'next/image'
 import { useState } from 'react'
 import Logo from '../public/logo.svg'
+import { useRouter } from 'next/router'
+import Link from 'next/link'
 
 const Navigation = () => {
     const [isNavOpen, setIsNavOpen] = useState(false)
+    const router = useRouter()
     return (
-        <nav className='flex flex-1 items-center justify-center gap-5  bg-red-50 px-3 z-40  sticky top-0'>
+        <nav className='flex flex-1 items-center justify-center gap-5  bg-[#f4cdcc] px-3 z-40  sticky top-0'>
             <div className='px-4 md:grow md:text-center lg:text-start grow text-center py-2  order-1 lg:-order-2'>
                 <Image src={Logo} height={35} width={60} />
             </div>
@@ -40,19 +43,24 @@ const Navigation = () => {
                         </div>
                         <ul className='flex flex-col items-center gap-7 justify-between min-h-[250px] '>
                             <li>
-                                <a href=''>Home</a>
+                                <Link href='/'>
+                                    <a>Home</a>
+                                </Link>
                             </li>
                             <li>
-                                <a href=''>Blog</a>
+                                <Link href='https://nowandme.com/home'>
+                                    <a>Community </a>
+                                </Link>
                             </li>
                             <li>
-                                <a href=''>About</a>
+                                <Link href='https://nowandme.com/therapy'>
+                                    <a>Expert</a>
+                                </Link>
                             </li>
                             <li>
-                                <a href=''>Groups</a>
-                            </li>
-                            <li>
-                                <a href=''>Community</a>
+                                <Link href='https://nowandme.com/blog'>
+                                    <a>Blog</a>
+                                </Link>
                             </li>
                         </ul>
                     </div>
@@ -60,19 +68,24 @@ const Navigation = () => {
 
                 <ul className='DESKTOP-MENU hidden text-xl  space-x-8 lg:flex gap-y-9  flex-1 justify-end '>
                     <li>
-                        <a href=''>Home</a>
+                        <Link href='/'>
+                            <a>Home</a>
+                        </Link>
                     </li>
                     <li>
-                        <a href=''>About</a>
+                        <Link href='https://nowandme.com/home'>
+                            <a>Community </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href=''>Blog</a>
+                        <Link href='https://nowandme.com/therapy'>
+                            <a>Expert</a>
+                        </Link>
                     </li>
                     <li>
-                        <a href=''>Groups</a>
-                    </li>
-                    <li>
-                        <a href=''>Community</a>
+                        <Link href='https://nowandme.com/blog'>
+                            <a>Blog</a>
+                        </Link>
                     </li>
                 </ul>
             </div>
