@@ -15,10 +15,10 @@ export default function Home() {
             <Banner />
             <CommunityType />
             <CommunityBlogs />
+            <NewsReview />
             <Message />
             <WhatWeDo />
             <UserReviewCarousel />
-            <NewsReview />
         </>
     )
 }

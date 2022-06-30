@@ -5,18 +5,16 @@ import UserReview from './UserReview'
 const UserReviewCarousel = () => {
     const items = [
         {
-            name: 'Madison',
-            review: `"I love the Peanut app! I met my best friend who lives directly
-                across the street. I would never have met her if it weren't for
-                this app!"`,
+            name: 'Raunak',
+            review: `"Now&Me is a great platform to connect with people who genuinely care"`,
         },
         {
-            name: 'Lydia A',
-            review: `"I wish I knew about Peanut sooner, as it’s so important to surround yourself with women who understand during those overwhelming moments of womanhood."`,
+            name: 'Nikhil',
+            review: `"I was really lonely and sad, but then I found Now&Me and people who genuinely care about how i feel."`,
         },
         {
-            name: 'Alice P',
-            review: `"I  mean, seriously, genius, and so fun! I’ve been using the app for a few weeks and have already been able to connect with several awesome women that are within a local distance from me."`,
+            name: 'Vansh',
+            review: `"I was really lonely and sad, but then I found Now&Me and people who genuinely care about how i feel."`,
         },
     ]
 

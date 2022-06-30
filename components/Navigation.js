@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { useState } from 'react'
-import Logo from '../public/logo.svg'
+import Logo from '../public/Logo.png'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
 
@@ -8,9 +8,9 @@ const Navigation = () => {
     const [isNavOpen, setIsNavOpen] = useState(false)
     const router = useRouter()
     return (
-        <nav className='flex flex-1 items-center justify-center gap-5  bg-[#f4cdcc] px-3 z-40  sticky top-0'>
-            <div className='px-4 md:grow md:text-center lg:text-start grow text-center py-2  order-1 lg:-order-2'>
-                <Image src={Logo} height={35} width={60} />
+        <nav className='flex flex-1 items-center justify-center gap-5 px-3 z-40  sticky bg-white top-0 font-sans'>
+            <div className='px-4 md:grow md:text-center lg:text-start grow text-center py-2  order-1 lg:-order-2 max-w-lg '>
+                <Image src={Logo} width={90} height={50} />
             </div>
             <div className='lg:grow mx-5 py-5'>
                 <section className='MOBILE-MENU flex lg:hidden justify-start  '>
@@ -54,7 +54,7 @@ const Navigation = () => {
                             </li>
                             <li>
                                 <Link href='https://nowandme.com/therapy'>
-                                    <a>Expert</a>
+                                    <a>Therapy</a>
                                 </Link>
                             </li>
                             <li>
@@ -79,7 +79,7 @@ const Navigation = () => {
                     </li>
                     <li>
                         <Link href='https://nowandme.com/therapy'>
-                            <a>Expert</a>
+                            <a>Therapy</a>
                         </Link>
                     </li>
                     <li>
@@ -90,8 +90,8 @@ const Navigation = () => {
                 </ul>
             </div>
             <div className='flex-none order-4 '>
-                <button className='text-white bg-[#ff4f55] px-5 py-2  rounded-2xl'>
-                    Join App
+                <button className='text-white bg-[#ff6d42] px-5 py-2  rounded-2xl'>
+                    Download the App
                 </button>
             </div>
             <style>{`
