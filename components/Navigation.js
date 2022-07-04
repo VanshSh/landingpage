@@ -108,7 +108,7 @@ const Navigation = () => {
             </div>
             <div className='flex-none order-4  '>
                 <a
-                    className='text-white bg-[#ff6d42] px-5 py-4 text-xl rounded-2xl'
+                    className='text-white bg-[#ff6d42] px-5 py-2 text-md rounded-xl'
                     href={
                         isIOS
                             ? 'https://apps.apple.com/in/app/now-me-mental-health-community/id1587888702'
