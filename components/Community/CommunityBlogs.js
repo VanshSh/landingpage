@@ -31,7 +31,7 @@ const CommunityBlogs = () => {
     ]
 
     const blogsComponent = blogs.map((data) => {
-        return <Blogs title={data.title} images={data.img} links={data.link} />
+        return <Blogs blogsData={data} />
     })
     const responsive = {
         0: {

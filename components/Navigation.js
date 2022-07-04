@@ -1,12 +1,29 @@
 import Image from 'next/image'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Logo from '../public/Logo.png'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
 
 const Navigation = () => {
     const [isNavOpen, setIsNavOpen] = useState(false)
+    const [isIOS, setIsIOS] = useState(false)
     const router = useRouter()
+    useEffect(() => {
+        if (
+            [
+                'iPad Simulator',
+                'iPhone Simulator',
+                'iPod Simulator',
+                'iPad',
+                'iPhone',
+                'iPod',
+                'MacIntel',
+            ].includes(navigator.platform) ||
+            (navigator.userAgent.includes('Mac') && 'ontouchend' in document)
+        ) {
+            setIsIOS(true)
+        }
+    }, [])
     return (
         <nav className='flex flex-1 items-center justify-center gap-5 px-3 z-40  sticky bg-white top-0 font-sans'>
             <div className='px-4 md:grow md:text-center lg:text-start grow text-center py-2  order-1 lg:-order-2 max-w-lg '>
@@ -89,10 +106,18 @@ const Navigation = () => {
                     </li>
                 </ul>
             </div>
-            <div className='flex-none order-4 '>
-                <button className='text-white bg-[#ff6d42] px-5 py-2  rounded-2xl'>
+            <div className='flex-none order-4  '>
+                <a
+                    className='text-white bg-[#ff6d42] px-5 py-4 text-xl rounded-2xl'
+                    href={
+                        isIOS
+                            ? 'https://apps.apple.com/in/app/now-me-mental-health-community/id1587888702'
+                            : 'https://play.google.com/store/apps/details?id=com.nowandme.app'
+                    }
+                    target={'_blank'}
+                >
                     Download the App
-                </button>
+                </a>
             </div>
             <style>{`
   .hideMenuNav {
