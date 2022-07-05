@@ -6,32 +6,32 @@ import Link from 'next/link'
 const Blogs = (props) => {
     const { title, img, link } = props.blogsData
     return (
-        <div className=' m-4 '>
-            <div className=' relative'>
-                <Link href={link}>
+        <Link href={link}>
+            <div className=' m-4 cursor-pointer'>
+                <div className=' relative'>
                     <a>
                         <Image src={img.src} width={400} height={200} />
                     </a>
-                </Link>
-            </div>
+                </div>
 
-            <div className='mt-2'>
-                <div className='text-center text-gray-400 flex flex-1 gap-x-2 justify-center items-center mt-1'>
-                    {title}
+                <div className='mt-2'>
+                    <div className='text-center text-gray-600 font-bold flex flex-1 gap-x-2 justify-center items-center mt-8'>
+                        {title}
+                    </div>
+                </div>
+
+                <div className='text-gray-400 text-center flex flex-1 justify-center items-center gap-x-3 mt-3'>
+                    <span className='flex gap-x-2 justify-center items-center'>
+                        <GoEye />
+                        15 Views
+                    </span>
+                    <span className='flex gap-x-2 justify-center items-center'>
+                        <GoComment />
+                        39 Comments
+                    </span>
                 </div>
             </div>
-
-            <div className='text-gray-400 text-center flex flex-1 justify-center items-center gap-x-3 mt-3'>
-                <span className='flex gap-x-2 justify-center items-center'>
-                    <GoEye />
-                    15 Views
-                </span>
-                <span className='flex gap-x-2 justify-center items-center'>
-                    <GoComment />
-                    39 Comments
-                </span>
-            </div>
-        </div>
+        </Link>
     )
 }
 

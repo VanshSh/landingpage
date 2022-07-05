@@ -28,7 +28,7 @@ const UserReviewCarousel = () => {
     }
 
     return (
-        <section className='bg-red-100'>
+        <section className='bg-[#fff6f3]'>
             <div className='my-20 py-16 lg:mx-44 mx-5'>
                 <AliceCarousel
                     mouseTracking

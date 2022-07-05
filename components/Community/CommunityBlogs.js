@@ -51,7 +51,7 @@ const CommunityBlogs = () => {
     }
     return (
         <section>
-            <p className='mt-10 text-center text-3xl font-bold'>Community</p>
+            <p className='mt-10 text-center text-5xl font-bold'>Community</p>
             <div className='mx-12'>
                 <div className='pt-6'>
                     <AliceCarousel
