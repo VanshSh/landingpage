@@ -1,4 +1,5 @@
 const NewsReview = () => {
+    fix
     return (
         <section className=' px-4 py-8'>
             <div className='grid items-center max-w-3xl grid-cols-2 gap-12 mx-auto mt-16 md:gap-0  md:space-x-10 md:flex'>
@@ -9,7 +10,7 @@ const NewsReview = () => {
                     className='flex items-center justify-center text-gray-400 transition hover:text-gray-900 :text-warm-gray-100'
                 >
                     <svg
-                        class='h-7'
+                        className='h-7'
                         xmlns='http://www.w3.org/2000/svg'
                         fill='none'
                         viewBox='0 0 141 37'
@@ -26,10 +27,10 @@ const NewsReview = () => {
                     target='_blank'
                     rel='noreferrer'
                     href='https://www.gqindia.com/live-well/content/covid-19-and-mental-health-how-to-manage-self-esteem-with-pay-cuts-job-loss-and-no-social-life'
-                    class='flex items-center justify-center text-gray-400 transition hover:text-gray-900 :text-warm-gray-100'
+                    className='flex items-center justify-center text-gray-400 transition hover:text-gray-900 :text-warm-gray-100'
                 >
                     <svg
-                        class='h-7'
+                        className='h-7'
                         xmlns='http://www.w3.org/2000/svg'
                         fill='none'
                         viewBox='0 0 88 44'
@@ -46,10 +47,10 @@ const NewsReview = () => {
                     target='_blank'
                     rel='noreferrer'
                     href='https://www.instagram.com/p/B7LDQpNp5mT/'
-                    class='flex items-center justify-center text-gray-400 transition hover:text-gray-900 :text-warm-gray-100'
+                    className='flex items-center justify-center text-gray-400 transition hover:text-gray-900 :text-warm-gray-100'
                 >
                     <svg
-                        class='h-7'
+                        className='h-7'
                         xmlns='http://www.w3.org/2000/svg'
                         fill='none'
                         viewBox='0 0 150 31'
@@ -64,10 +65,10 @@ const NewsReview = () => {
                     target='_blank'
                     rel='noreferrer'
                     href='https://yourstory.com/socialstory/2020/08/graduates-online-platform-talk-mental-health/amp?utm_pageloadtype=scroll'
-                    class='flex items-center justify-center text-gray-400 transition hover:text-gray-900 :text-warm-gray-100'
+                    className='flex items-center justify-center text-gray-400 transition hover:text-gray-900 :text-warm-gray-100'
                 >
                     <svg
-                        class='h-7'
+                        className='h-7'
                         xmlns='http://www.w3.org/2000/svg'
                         fill='none'
                         viewBox='0 0 157 32'
@@ -84,10 +85,10 @@ const NewsReview = () => {
                     target='_blank'
                     rel='noreferrer'
                     href='https://timesofindia.indiatimes.com/india/collective-healing-in-times-of-resistance/articleshow/73241958.cms'
-                    class='flex items-center justify-center text-gray-400 transition hover:text-gray-900 :text-warm-gray-100'
+                    className='flex items-center justify-center text-gray-400 transition hover:text-gray-900 :text-warm-gray-100'
                 >
                     <svg
-                        class='h-7'
+                        className='h-7'
                         xmlns='http://www.w3.org/2000/svg'
                         fill='none'
                         viewBox='0 0 68 32'
@@ -102,15 +103,15 @@ const NewsReview = () => {
                     target='_blank'
                     rel='noreferrer'
                     href='https://techcrunch.com/2020/04/26/tech-for-good-during-covid-19-therapy-for-nurses-baby-food-and-an-online-diary/'
-                    class='flex items-center justify-center text-gray-400 transition hover:text-gray-900 :text-warm-gray-100'
+                    className='flex items-center justify-center text-gray-400 transition hover:text-gray-900 :text-warm-gray-100'
                 >
                     <svg
-                        class='h-7'
+                        className='h-7'
                         xmlns='http://www.w3.org/2000/svg'
                         fill='none'
                         viewBox='0 0 64 32'
                     >
-                        <g fill='currentColor' clip-path='url(#techcrunch)'>
+                        <g fill='currentColor' clipPath='url(#techcrunch)'>
                             <path d='M32 0v10.667H21.333V32H10.667V10.667H0V0h32ZM64 0H42.667v10.667H64V0ZM64 21.333V32H32V10.667h10.667v10.666H64Z'></path>
                         </g>
                         <defs>
