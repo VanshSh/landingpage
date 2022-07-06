@@ -1,6 +1,6 @@
 import AliceCarousel from 'react-alice-carousel'
 import 'react-alice-carousel/lib/alice-carousel.css'
-import UserReview from './UserReview'
+import UserReview from './user-review'
 
 const UserReviewCarousel = () => {
     const items = [

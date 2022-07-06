@@ -1,17 +1,16 @@
-import Banner from '../components/Banner'
-import CommunityBlogs from '../components/Community/CommunityBlogs'
-import CommunityType from '../components/CommunityType'
-import Footer from '../components/Footer'
-import Message from '../components/Message'
-import Navigation from '../components/Navigation'
-import NewsReview from '../components/NewsReview'
-import UserReviewCarousel from '../components/UserReview/UserReviewCarousel'
-import WhatWeDo from '../components/WhatWeDo'
+import Banner from '../components/banner'
+import CommunityBlogs from '../components/community/community-blogs'
+import CommunityType from '../components/community-type'
+import Footer from '../components/footer'
+import Message from '../components/message'
+import Navigation from '../components/navigation'
+import NewsReview from '../components/news'
+import UserReviewCarousel from '../components/user-review/user-review-carousel'
+import WhatWeDo from '../components/what-we-do'
 
 export default function Home() {
     return (
         <>
-            {' '}
             <Navigation />
             <Banner />
             <CommunityType />

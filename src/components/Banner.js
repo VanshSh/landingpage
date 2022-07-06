@@ -2,8 +2,6 @@ import Image from 'next/image'
 import Hero from '../../public/Hero.png'
 import AndroidBtn from '../../public/androidLinkBtn.png'
 import IOSBtn from '../../public/iOSLinkBtn.png'
-import { useEffect, useState } from 'react'
-import Link from 'next/link'
 
 const Banner = () => {
     return (

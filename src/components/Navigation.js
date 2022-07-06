@@ -1,9 +1,8 @@
 import Image from 'next/image'
 import { useState, useEffect } from 'react'
 import Logo from '../../public/Logo.png'
-import { useRouter } from 'next/router'
 import Link from 'next/link'
-import InstalLAlert from './InstallAlert'
+import AppInstall from './app-install-popup'
 
 const Navigation = () => {
     const [isNavOpen, setIsNavOpen] = useState(false)
@@ -82,7 +81,7 @@ const Navigation = () => {
                             </li>
                         </ul>
                         <div>
-                            <InstalLAlert />
+                            <AppInstall />
                         </div>
                     </div>
                 </section>
