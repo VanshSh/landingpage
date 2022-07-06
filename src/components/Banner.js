@@ -3,16 +3,18 @@ import Hero from '../../public/Hero.png'
 import AndroidBtn from '../../public/androidLinkBtn.png'
 import IOSBtn from '../../public/iOSLinkBtn.png'
 import { useEffect, useState } from 'react'
-
 import Link from 'next/link'
+
 const Banner = () => {
     return (
         <header className='flex flex-1 bg-[#fff6f3] lg:flex-row flex-col justify-start lg:justify-center lg:items-center pt-5 lg:px-24 px-5 '>
-            <div className='flex flex-col mt-10  justify-start max-w-3xl '>
-                <h1 className='text-5xl leading-[58px] font-bold  text-[#ff6d42]'>
-                    A safe space where your thoughts are heard, felt, and
-                    understood
-                </h1>
+            <div className='flex flex-col justify-start max-w-3xl '>
+                <div className='text-center lg:text-start md:text-start sm:text-start'>
+                    <h1 className='text-5xl  leading-[58px] font-bold  text-[#ff6d42]'>
+                        A safe space where your thoughts are heard, felt, and
+                        understood
+                    </h1>
+                </div>
                 <p className=' mt-10 text-xl text-[#262626]'>
                     Connect with like-minded people who&apos;ve been through
                     similar experiences as you
