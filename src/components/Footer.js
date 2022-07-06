@@ -14,7 +14,7 @@ const Footer = () => {
                 <p className='text-white text-5xl font-bold '>
                     Join our Community
                 </p>
-                <div className='pt-10  flex flex-1 justify-center items-center flex-wrap gap-x-10'>
+                <div className='pt-10  flex flex-1 justify-center items-center flex-wrap gap-x-10 gap-y-4'>
                     <a
                         href='https://apps.apple.com/in/app/now-me-mental-health-community/id1587888702'
                         target={'_blank'}
