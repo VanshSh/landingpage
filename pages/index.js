@@ -1,5 +1,4 @@
 import Banner from '../components/Banner'
-import Blogs from '../components/Community/Blogs'
 import CommunityBlogs from '../components/Community/CommunityBlogs'
 import CommunityType from '../components/CommunityType'
 import Footer from '../components/Footer'
@@ -12,6 +11,8 @@ import WhatWeDo from '../components/WhatWeDo'
 export default function Home() {
     return (
         <>
+            {' '}
+            <Navigation />
             <Banner />
             <CommunityType />
             <CommunityBlogs />
@@ -19,6 +20,7 @@ export default function Home() {
             <Message />
             <WhatWeDo />
             <UserReviewCarousel />
+            <Footer />
         </>
     )
 }

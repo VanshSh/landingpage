@@ -11,33 +11,25 @@ const CommunityType = () => {
             <div className='mt-16 mb-10 flex w-full justify-evenly font-normal items-center  flex-wrap '>
                 <div className=' text-center text-xl p-2'>
                     <div className='bg-[#fff6f3] p-10 text-4xl rounded-full mb-5 '>
-                        <Link href=''>
-                            <a>🧠</a>
-                        </Link>
+                        <span>🧠</span>
                     </div>
                     Mental Health
                 </div>
                 <div className=' text-center text-xl p-2'>
                     <div className='bg-[#fff6f3] p-10 text-4xl rounded-full mb-5 '>
-                        <Link href=''>
-                            <a>😔</a>
-                        </Link>
+                        <span>😔</span>
                     </div>
                     Loneliness
                 </div>
                 <div className=' text-center text-xl p-2'>
                     <div className='bg-[#fff6f3] p-10 text-4xl rounded-full mb-5 '>
-                        <Link href=''>
-                            <a>🧑‍💻</a>
-                        </Link>
+                        <span>🧑‍💻</span>
                     </div>
                     Career
                 </div>
                 <div className=' text-center text-xl p-2'>
                     <div className='bg-[#fff6f3] p-10 text-4xl rounded-full mb-5 '>
-                        <Link href=''>
-                            <a>🧡</a>
-                        </Link>
+                        <span>🧡</span>
                     </div>
                     Relationships
                 </div>

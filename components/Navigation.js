@@ -25,7 +25,7 @@ const Navigation = () => {
         }
     }, [])
     return (
-        <nav className='flex flex-1 items-center justify-center gap-5 px-3 z-40  sticky bg-white top-0 font-sans'>
+        <nav className='flex flex-1 items-center xl:justify-center justify-between gap-5 px-3 z-40  sticky bg-white top-0 font-sans '>
             <div className='px-4 md:grow md:text-center lg:text-start grow text-center py-2  order-1 lg:-order-2 max-w-lg '>
                 <Image src={Logo} width={90} height={50} />
             </div>
@@ -108,7 +108,7 @@ const Navigation = () => {
             </div>
             <div className='flex-none order-4  '>
                 <a
-                    className='text-white bg-[#ff6d42] px-5 py-2 text-md rounded-xl'
+                    className='text-white bg-[#ff6d42] px-5 py-4 text-md rounded-xl'
                     href={
                         isIOS
                             ? 'https://apps.apple.com/in/app/now-me-mental-health-community/id1587888702'

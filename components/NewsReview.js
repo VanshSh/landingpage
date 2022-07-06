@@ -1,12 +1,7 @@
 const NewsReview = () => {
     return (
-        <section className='py-12 px-4'>
-            <div>
-                <h3 className='text-5xl  font-bold text-center '>
-                    Featured in
-                </h3>
-            </div>
-            <div className='grid items-center max-w-3xl grid-cols-2 gap-12 mx-auto mt-16 md:gap-0 md:mt-20 md:space-x-10 md:flex'>
+        <section className=' px-4 py-8'>
+            <div className='grid items-center max-w-3xl grid-cols-2 gap-12 mx-auto mt-16 md:gap-0  md:space-x-10 md:flex'>
                 <a
                     href='https://www.vogue.in/wellness/content/verified-mental-health-helplines-and-services-pan-india-suicide-helplines-therapists-counsellors'
                     target='_blank'

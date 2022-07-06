@@ -27,9 +27,8 @@ function MyApp({ Component, pageProps }) {
                         content='Anonymity at Now&amp;Me'
                     />
                 </Head>
-                <Navigation />
+
                 <Component {...pageProps} />
-                <Footer />
             </>
         )
     }

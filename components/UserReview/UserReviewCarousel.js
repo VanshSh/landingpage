@@ -29,13 +29,13 @@ const UserReviewCarousel = () => {
 
     return (
         <section className='bg-[#fff6f3]'>
-            <div className='my-20 py-16 lg:mx-44 mx-5'>
+            <div className=' lg:mx-44 py-10'>
                 <AliceCarousel
                     mouseTracking
                     animationDuration={1500}
                     infinite
                     autoPlayInterval={1000}
-                    disableDotsControls
+                    disableDotsControls={false}
                     disableButtonsControls={true}
                     responsive={responsive}
                     items={reviews}

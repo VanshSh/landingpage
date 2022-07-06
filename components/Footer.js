@@ -81,19 +81,19 @@ const Footer = () => {
                 </div>
             </div>
             <div>
-                <ul className='flex-1  flex justify-center gap-x-5  flex-wrap '>
+                <ul className='flex-1  flex justify-center items-end gap-x-5  flex-wrap '>
                     <li className='mb-5'>
                         <Link href='/'>
                             <a>Home</a>
                         </Link>
                     </li>
                     <li className='mb-5'>
-                        <Link href='/'>
+                        <Link href='https://nowandme.com/home'>
                             <a>Community</a>
                         </Link>
                     </li>
                     <li className='mb-5'>
-                        <Link href='/'>
+                        <Link href='https://nowandme.com/therapy'>
                             <a>Therapy</a>
                         </Link>
                     </li>
@@ -108,7 +108,7 @@ const Footer = () => {
                         </a>
                     </li>
                     <li className='mb-5'>
-                        <Link href='/'>
+                        <Link href='https://nowandme.com/blog'>
                             <a>&#169; NownadMe</a>
                         </Link>
                     </li>

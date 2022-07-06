@@ -15,12 +15,12 @@ const Blogs = (props) => {
                 </div>
 
                 <div className='mt-2'>
-                    <div className='text-center text-gray-600 font-bold flex flex-1 gap-x-2 justify-center items-center mt-8'>
+                    <div className='text-center text-gray-600 text-2xl font-bold flex flex-1 gap-x-2 justify-center items-center mt-8'>
                         {title}
                     </div>
                 </div>
 
-                <div className='text-gray-400 text-center flex flex-1 justify-center items-center gap-x-3 mt-3'>
+                {/* <div className='text-gray-400 text-center flex flex-1 justify-center items-center gap-x-3 mt-3'>
                     <span className='flex gap-x-2 justify-center items-center'>
                         <GoEye />
                         15 Views
@@ -29,7 +29,7 @@ const Blogs = (props) => {
                         <GoComment />
                         39 Comments
                     </span>
-                </div>
+                </div> */}
             </div>
         </Link>
     )
