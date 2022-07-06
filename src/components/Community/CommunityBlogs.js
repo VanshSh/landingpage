@@ -12,26 +12,30 @@ const CommunityBlogs = () => {
             title: 'Sharing Circle',
             img: PostImg1,
             link: 'https://nowandme.com/there-is-no-greater-intelligence-than-kindness-and-MMjP2ZdI_TsBwg4',
+            id: 1,
         },
         {
             title: 'Ask Me Anything',
             img: PostImg2,
             link: 'https://nowandme.com/there-is-no-greater-intelligence-than-kindness-and-MMjP2ZdI_TsBwg4',
+            id: 2,
         },
         {
             title: 'Kindness And Empathy',
             img: PostImg3,
             link: 'https://nowandme.com/there-is-no-greater-intelligence-than-kindness-and-MMjP2ZdI_TsBwg4',
+            id: 3,
         },
         {
             title: 'Mental Health Check-in',
             img: PostImg4,
             link: 'https://nowandme.com/we-are-here-to-give-you-a-few-1msk0G1A-GxRQLX',
+            id: 4,
         },
     ]
 
     const blogsComponent = blogs.map((data) => {
-        return <Blogs blogsData={data} />
+        return <Blogs blogsData={data} key={data.id} />
     })
     const responsive = {
         0: {
