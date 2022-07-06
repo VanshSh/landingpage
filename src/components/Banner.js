@@ -18,23 +18,21 @@ const Banner = () => {
                     experiences as you
                 </p>
                 <div className='flex w-fit justify-between mt-12 gap-x-4 '>
-                    <Link
+                    <a
                         href='https://apps.apple.com/in/app/now-me-mental-health-community/id1587888702'
-                        className=''
+                        target='_blank'
+                        rel='noreferrer'
                     >
-                        <a className=''>
-                            <Image src={IOSBtn} width={180} height={80} />
-                        </a>
-                    </Link>
-                    <Link
+                        <Image src={IOSBtn} width={180} height={80} />
+                    </a>
+
+                    <a
                         href='https://play.google.com/store/apps/details?id=com.nowandme.app'
                         target='_blank'
-                        className=''
+                        rel='noreferrer'
                     >
-                        <a className=''>
-                            <Image src={AndroidBtn} width={180} height={80} />
-                        </a>
-                    </Link>
+                        <Image src={AndroidBtn} width={180} height={80} />
+                    </a>
                 </div>
             </div>
             <div className='mt-12 lg:ml-12 pb-14'>
