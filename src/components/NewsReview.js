@@ -1,5 +1,4 @@
 const NewsReview = () => {
-    fix
     return (
         <section className=' px-4 py-8'>
             <div className='grid items-center max-w-3xl grid-cols-2 gap-12 mx-auto mt-16 md:gap-0  md:space-x-10 md:flex'>
