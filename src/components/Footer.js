@@ -18,15 +18,27 @@ const Footer = () => {
                     <a
                         href='https://apps.apple.com/in/app/now-me-mental-health-community/id1587888702'
                         target={'_blank'}
+                        rel=' noreferrer'
                     >
-                        <Image src={IOSBtn} width={200} height={90} />
+                        <Image
+                            src={IOSBtn}
+                            alt='IOS Button'
+                            width={200}
+                            height={90}
+                        />
                     </a>
 
                     <a
                         href='https://play.google.com/store/apps/details?id=com.nowandme.app'
                         target={'_blank'}
+                        rel=' noreferrer'
                     >
-                        <Image src={AndroidBtn} width={200} height={90} />
+                        <Image
+                            src={AndroidBtn}
+                            alt='Android Button'
+                            width={200}
+                            height={90}
+                        />
                     </a>
                 </div>
             </div>
@@ -34,14 +46,23 @@ const Footer = () => {
                 <a
                     href='https://www.instagram.com/nowandme/?hl=en'
                     target={'_blank'}
+                    rel=' noreferrer'
                 >
                     <BsInstagram />
                 </a>
-                <a href='https://facebook.com/nowandme' target={'_blank'}>
+                <a
+                    href='https://facebook.com/nowandme'
+                    target={'_blank'}
+                    rel=' noreferrer'
+                >
                     <BsFacebook />
                 </a>
 
-                <a href='https://twitter.com/nowandme' target={'_blank'}>
+                <a
+                    href='https://twitter.com/nowandme'
+                    target={'_blank'}
+                    rel=' noreferrer'
+                >
                     <BsTwitter />
                 </a>
                 <a
@@ -58,6 +79,7 @@ const Footer = () => {
                     <a
                         className='font-bold px-5'
                         href='mailto:work@nowandme.com'
+                        rel=' noreferrer'
                     >
                         work@nowandme.com
                     </a>
@@ -68,6 +90,7 @@ const Footer = () => {
                     <a
                         className='font-bold px-5'
                         href='mailto:community@nowandme.com'
+                        rel=' noreferrer'
                     >
                         community@nowandme.com
                     </a>
@@ -77,6 +100,7 @@ const Footer = () => {
                     <a
                         className='font-bold px-5'
                         href='mailto:info@nowandme.com'
+                        rel=' noreferrer'
                     >
                         info@nowandme.com
                     </a>
@@ -114,10 +138,7 @@ const Footer = () => {
                         </a>
                     </li>
                     <li className='mb-5'>
-                        <a>
-                            &#169; {currentYear} Now&Me Enterprises Pvt. Ltd. –
-                            All rights reserved.
-                        </a>
+                        <a> &#169; {currentYear} Now&Me</a>
                     </li>
                 </ul>
             </div>

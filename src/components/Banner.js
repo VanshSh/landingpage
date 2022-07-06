@@ -14,8 +14,8 @@ const Banner = () => {
                     understood
                 </h1>
                 <p className=' mt-10 text-xl text-[#262626]'>
-                    Connect with like-minded people who've been through similar
-                    experiences as you
+                    Connect with like-minded people who&apos;ve been through
+                    similar experiences as you
                 </p>
                 <div className='flex w-fit justify-between mt-12 gap-x-4 '>
                     <a

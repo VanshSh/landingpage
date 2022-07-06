@@ -23,8 +23,8 @@ const WhatWeDo = () => {
                         Comment
                     </h2>
                     <p className='mt-4 lg:text-xl w-fit m-auto lg:w-2/3 text-center mb-9 '>
-                        Discover and chat with people who understand what you're
-                        going through.
+                        Discover and chat with people who understand what
+                        you&apos;re going through.
                     </p>
                     <div className='w-[280px] height-[400px] text-center my-0 mx-auto'>
                         <Image src={Comment} alt='Comments' />
