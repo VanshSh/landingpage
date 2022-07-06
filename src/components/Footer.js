@@ -68,6 +68,7 @@ const Footer = () => {
                 <a
                     href='https://www.youtube.com/channel/UC4OxDV6X7SBCb7YD2C5NwPA'
                     target={'_blank'}
+                    rel=' noreferrer'
                 >
                     <BsYoutube />
                 </a>
