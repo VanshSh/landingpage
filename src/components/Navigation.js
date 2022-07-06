@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { useState, useEffect } from 'react'
-import Logo from '../public/Logo.png'
+import Logo from '../../public/Logo.png'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
 

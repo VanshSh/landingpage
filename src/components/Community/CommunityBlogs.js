@@ -1,10 +1,10 @@
 import AliceCarousel from 'react-alice-carousel'
 import 'react-alice-carousel/lib/alice-carousel.css'
 import Blogs from './Blogs'
-import PostImg1 from '../../public/postImage1.webp'
-import PostImg2 from '../../public/postImage2.webp'
-import PostImg3 from '../../public/postImage3.webp'
-import PostImg4 from '../../public/postImage4.webp'
+import PostImg1 from '../../../public/postImage1.webp'
+import PostImg2 from '../../../public/postImage2.webp'
+import PostImg3 from '../../../public/postImage3.webp'
+import PostImg4 from '../../../public/postImage4.webp'
 
 const CommunityBlogs = () => {
     const blogs = [

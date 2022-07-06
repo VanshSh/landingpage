@@ -1,8 +1,8 @@
 import Image from 'next/image'
-import Feed from '../public/Feed2.webp'
-import Chat from '../public/Chat1.webp'
-import Thought from '../public/Thought2.webp'
-import Events from '../public/Events2.webp'
+import Feed from '../../public/Feed2.webp'
+import Chat from '../../public/Chat1.webp'
+import Thought from '../../public/Thought2.webp'
+import Events from '../../public/Events2.webp'
 
 const WhatWeDo = () => {
     return (

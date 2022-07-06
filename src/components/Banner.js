@@ -1,7 +1,7 @@
 import Image from 'next/image'
-import Hero from '../public/Hero3.png'
-import AndroidBtn from '../public/androidLinkBtn.png'
-import IOSBtn from '../public/iOSLinkBtn.png'
+import Hero from '../../public/Hero3.png'
+import AndroidBtn from '../../public/androidLinkBtn.png'
+import IOSBtn from '../../public/iOSLinkBtn.png'
 import { useEffect, useState } from 'react'
 
 import Link from 'next/link'

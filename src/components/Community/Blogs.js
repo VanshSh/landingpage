@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import User1 from '../../public/user1.jpeg'
 import { GoEye, GoComment } from 'react-icons/go'
 import Link from 'next/link'
 

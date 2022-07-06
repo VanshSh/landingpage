@@ -1,6 +1,6 @@
 import { BsInstagram, BsFacebook, BsTwitter, BsYoutube } from 'react-icons/bs'
-import AndroidBtn from '../public/androidLinkBtn.png'
-import IOSBtn from '../public/iOSLinkBtn.png'
+import AndroidBtn from '../../public/androidLinkBtn.png'
+import IOSBtn from '../../public/iOSLinkBtn.png'
 
 import Link from 'next/link'
 import Image from 'next/image'
