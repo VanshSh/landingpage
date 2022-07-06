@@ -131,11 +131,101 @@ const Footer = () => {
                     </li>
                     <li className='mb-5'>
                         <a
+                            href='https://nowandme.com/tags/feedback'
+                            target='_blank'
+                            rel='noreferrer'
+                        >
+                            Feedback
+                        </a>
+                    </li>
+                    <li className='mb-5'>
+                        <a
+                            href='https://nowandme.com/contacts'
+                            target='_blank'
+                            rel='noreferrer'
+                        >
+                            Contact
+                        </a>
+                    </li>
+                    <li className='mb-5'>
+                        <a
+                            href='https://nowandme.com/faq'
+                            target='_blank'
+                            rel='noreferrer'
+                        >
+                            FAQ
+                        </a>
+                    </li>
+                    <li className='mb-5'>
+                        <a
+                            href='https://nowandme.com/about'
+                            target='_blank'
+                            rel='noreferrer'
+                        >
+                            About
+                        </a>
+                    </li>
+                    <li className='mb-5'>
+                        <a
+                            href='https://nowandme.com/terms'
+                            target='_blank'
+                            rel='noreferrer'
+                        >
+                            Terms
+                        </a>
+                    </li>
+                    <li className='mb-5'>
+                        <a
+                            href='https://nowandme.com/privacy'
+                            target='_blank'
+                            rel='noreferrer'
+                        >
+                            Privacy
+                        </a>
+                    </li>
+                    <li className='mb-5'>
+                        <a
                             href='https://nowandme.com/careers'
                             target='_blank'
                             rel='noreferrer'
                         >
                             Careers
+                        </a>
+                    </li>
+                    <li className='mb-5'>
+                        <a
+                            href='https://nowandme.com/press'
+                            target='_blank'
+                            rel='noreferrer'
+                        >
+                            Press
+                        </a>
+                    </li>
+                    <li className='mb-5'>
+                        <a
+                            href='https://nowandme.com/community-guidelines'
+                            target='_blank'
+                            rel='noreferrer'
+                        >
+                            Guidelines
+                        </a>
+                    </li>
+                    <li className='mb-5'>
+                        <a
+                            href='https://nowandme.com/anonymity'
+                            target='_blank'
+                            rel='noreferrer'
+                        >
+                            Anonymity
+                        </a>
+                    </li>
+                    <li className='mb-5'>
+                        <a
+                            href='https://nowandme.com/tags'
+                            target='_blank'
+                            rel='noreferrer'
+                        >
+                            Tags
                         </a>
                     </li>
                     <li className='mb-5'>
