@@ -6,8 +6,10 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 const Footer = () => {
+    const currentYear = new Date().getFullYear()
+
     return (
-        <footer className='lg:bg-red- bg-black text-white pt-14 px-5 pb-11'>
+        <footer className='lg:bg-red- bg-black text-white  pt-14  '>
             <div className='text-center'>
                 <p className='text-white text-5xl font-bold '>
                     Join our Community
@@ -98,7 +100,7 @@ const Footer = () => {
                         </Link>
                     </li>
                     <li className='mb-5'>
-                        <Link href='/'>
+                        <Link href='https://nowandme.com/blog'>
                             <a>Blogs</a>
                         </Link>
                     </li>
@@ -107,12 +109,13 @@ const Footer = () => {
                             Careers
                         </a>
                     </li>
-                    <li className='mb-5'>
-                        <Link href='https://nowandme.com/blog'>
-                            <a>&#169; NownadMe</a>
-                        </Link>
-                    </li>
                 </ul>
+            </div>
+            <div className='bg-[#fafafa] text-center text-[#4c4c4c] mt-10 '>
+                <p className='py-2'>
+                    &#169; {currentYear} Now&Me Enterprises Pvt. Ltd. – All
+                    rights reserved.
+                </p>
             </div>
         </footer>
     )
