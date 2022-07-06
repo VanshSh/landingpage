@@ -105,17 +105,21 @@ const Footer = () => {
                         </Link>
                     </li>
                     <li className='mb-5'>
-                        <a href='https://nowandme.com/careers' target='_blank'>
+                        <a
+                            href='https://nowandme.com/careers'
+                            target='_blank'
+                            rel='noreferrer'
+                        >
                             Careers
                         </a>
                     </li>
+                    <li className='mb-5'>
+                        <a>
+                            &#169; {currentYear} Now&Me Enterprises Pvt. Ltd. –
+                            All rights reserved.
+                        </a>
+                    </li>
                 </ul>
-            </div>
-            <div className='bg-[#fafafa] text-center text-[#4c4c4c] mt-10 '>
-                <p className='py-2'>
-                    &#169; {currentYear} Now&Me Enterprises Pvt. Ltd. – All
-                    rights reserved.
-                </p>
             </div>
         </footer>
     )
