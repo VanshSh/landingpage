@@ -9,7 +9,12 @@ const Blogs = (props) => {
             <div className=' m-4 cursor-pointer'>
                 <div className=' relative'>
                     <a>
-                        <Image src={img.src} width={400} height={200} />
+                        <Image
+                            src={img.src}
+                            alt={title}
+                            width={400}
+                            height={200}
+                        />
                     </a>
                 </div>
 
