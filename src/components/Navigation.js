@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react'
 import Logo from '../../public/Logo.png'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
+import InstalLAlert from './InstallAlert'
 
 const Navigation = () => {
     const [isNavOpen, setIsNavOpen] = useState(false)
@@ -27,10 +28,10 @@ const Navigation = () => {
     return (
         <nav className='flex flex-1 items-center xl:justify-center justify-between gap-5 px-3 z-40  sticky bg-white top-0 font-sans '>
             <div className='px-4 md:grow md:text-center lg:text-start grow text-center py-2  order-1 lg:-order-2 max-w-lg'>
-                <Image src={Logo} width={90} height={50} />
+                <Image src={Logo} alt='NowandMe Logo' width={90} height={50} />
             </div>
             <div className='lg:grow mx-5 py-5'>
-                <section className='MOBILE-MENU flex lg:hidden justify-start  '>
+                <section className='MOBILE-MENU flex lg:hidden justify-start items-between  '>
                     <div
                         className='HAMBURGER-ICON space-y-2 py-3 order-2 lg:-order-1 w-fit md:justify-start'
                         onClick={() => setIsNavOpen((prev) => !prev)}
@@ -80,6 +81,9 @@ const Navigation = () => {
                                 </Link>
                             </li>
                         </ul>
+                        <div>
+                            <InstalLAlert />
+                        </div>
                     </div>
                 </section>
 

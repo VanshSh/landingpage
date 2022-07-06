@@ -1,8 +1,7 @@
 import Image from 'next/image'
-import Feed from '../../public/Feed2.webp'
-import Chat from '../../public/Chat1.webp'
-import Thought from '../../public/Thought2.webp'
-import Events from '../../public/Events2.webp'
+import Comment from '../../public/Comment.png'
+import Group from '../../public/Group.jpg'
+import Share from '../../public/Share.jpg'
 
 const WhatWeDo = () => {
     return (
@@ -16,7 +15,7 @@ const WhatWeDo = () => {
                         Voice your thoughts with like-minded people.
                     </p>
                     <div className='w-[280px] height-[400px]  text-center my-0 mx-auto'>
-                        <Image src={Feed} />
+                        <Image src={Share} alt='Share' />
                     </div>
                 </section>
                 <section className=' px-2 py-10 text-center'>
@@ -28,7 +27,7 @@ const WhatWeDo = () => {
                         going through.
                     </p>
                     <div className='w-[280px] height-[400px] text-center my-0 mx-auto'>
-                        <Image src={Chat} />
+                        <Image src={Comment} alt='Comments' />
                     </div>
                 </section>
                 <section className=' px-2 py-10 text-center'>
@@ -39,7 +38,7 @@ const WhatWeDo = () => {
                         Make groups and talk about your special interests.
                     </p>
                     <div className='w-[280px] height-[400px] text-center my-0 mx-auto'>
-                        <Image src={Thought} />
+                        <Image src={Group} alt='Groups' />
                     </div>
                 </section>
                 <section className=' px-2 py-10 text-center'>
@@ -51,7 +50,7 @@ const WhatWeDo = () => {
                         events.
                     </p>
                     <div className='w-[280px] height-[400px] text-center my-0 mx-auto'>
-                        <Image src={Events} />
+                        <Image src={Group} alt='Events' />
                     </div>
                 </section>
             </div>

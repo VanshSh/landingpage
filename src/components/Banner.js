@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Hero from '../../public/Hero3.png'
+import Hero from '../../public/Hero.png'
 import AndroidBtn from '../../public/androidLinkBtn.png'
 import IOSBtn from '../../public/iOSLinkBtn.png'
 import { useEffect, useState } from 'react'
@@ -23,7 +23,12 @@ const Banner = () => {
                         target='_blank'
                         rel='noreferrer'
                     >
-                        <Image src={IOSBtn} width={180} height={80} />
+                        <Image
+                            src={IOSBtn}
+                            alt='IOS Button'
+                            width={180}
+                            height={80}
+                        />
                     </a>
 
                     <a
@@ -31,12 +36,17 @@ const Banner = () => {
                         target='_blank'
                         rel='noreferrer'
                     >
-                        <Image src={AndroidBtn} width={180} height={80} />
+                        <Image
+                            src={AndroidBtn}
+                            alt='Android Button'
+                            width={180}
+                            height={80}
+                        />
                     </a>
                 </div>
             </div>
             <div className='mt-12 lg:ml-12 pb-14'>
-                <Image src={Hero} height={500} width={400} />
+                <Image src={Hero} alt='Hero' height={500} width={400} />
             </div>
         </header>
     )
