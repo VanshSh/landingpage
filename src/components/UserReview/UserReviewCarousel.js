@@ -7,19 +7,24 @@ const UserReviewCarousel = () => {
         {
             name: 'Raunak',
             review: `"Now&Me is a great platform to connect with people who genuinely care"`,
+            id: 1,
         },
         {
             name: 'Nikhil',
             review: `"I was really lonely and sad, but then I found Now&Me and people who genuinely care about how i feel."`,
+            id: 2,
         },
         {
             name: 'Vansh',
             review: `"I was really lonely and sad, but then I found Now&Me and people who genuinely care about how i feel."`,
+            id: 3,
         },
     ]
 
     const reviews = items.map((data) => {
-        return <UserReview name={data.name} review={data.review} />
+        return (
+            <UserReview name={data.name} review={data.review} key={data.id} />
+        )
     })
     const responsive = {
         0: {
