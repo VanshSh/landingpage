@@ -9,13 +9,13 @@ const Banner = () => {
             <div className='flex flex-col justify-start max-w-3xl '>
                 <div className='text-center lg:text-start md:text-start sm:text-start'>
                     <h1 className='text-5xl  leading-[58px] font-bold  text-[#ff6d42]'>
-                        A safe space where your thoughts are heard, felt, and
-                        understood
+                        With over a million conversations about things that
+                        matter to you, Now&Me is your warm, caring home on the
+                        internet.
                     </h1>
                 </div>
                 <p className=' mt-10 text-xl text-[#262626]'>
-                    Connect with like-minded people who&apos;ve been through
-                    similar experiences as you
+                    Talk about your feelings, or tell us how your day went!
                 </p>
                 <div className='flex w-fit justify-between mt-12 gap-x-4 '>
                     <a
