@@ -2,7 +2,7 @@ import Image from 'next/image'
 import { useState, useEffect } from 'react'
 import Logo from '../../public/Logo.png'
 import Link from 'next/link'
-import AppInstall from './app-install-popup'
+import AppInstall from './app-install-alert'
 
 const Navigation = () => {
     const [isNavOpen, setIsNavOpen] = useState(false)
@@ -30,7 +30,7 @@ const Navigation = () => {
                 <Image src={Logo} alt='NowandMe Logo' width={90} height={50} />
             </div>
             <div className='lg:grow mx-5 py-5'>
-                <section className='MOBILE-MENU flex lg:hidden justify-start items-between  '>
+                <section className='MOBILE-MENU flex lg:hidden justify-start items-between'>
                     <div
                         className='HAMBURGER-ICON space-y-2 py-3 order-2 lg:-order-1 w-fit md:justify-start'
                         onClick={() => setIsNavOpen((prev) => !prev)}
@@ -40,7 +40,11 @@ const Navigation = () => {
                         <span className='block h-0.5 w-8  bg-black'></span>
                     </div>
 
-                    <div className={isNavOpen ? 'showMenuNav' : 'hideMenuNav'}>
+                    <div
+                        className={`${
+                            isNavOpen ? 'showMenuNav' : 'hideMenuNav'
+                        } pt-56`}
+                    >
                         <div
                             className='absolute top-0 left-0 px-8 py-8'
                             onClick={() => setIsNavOpen(false)}
@@ -80,9 +84,8 @@ const Navigation = () => {
                                 </Link>
                             </li>
                         </ul>
-                        <div>
-                            <AppInstall />
-                        </div>
+
+                        <AppInstall />
                     </div>
                 </section>
 
@@ -141,7 +144,7 @@ const Navigation = () => {
     font-weight:bold;
     display: flex;
     flex-direction:column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
   }
 `}</style>
