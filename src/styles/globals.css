@@ -4,6 +4,10 @@
 
 
 
+* {
+ /* border: 1px solid red */
+}
+
 .alice-carousel__prev-btn,
 .alice-carousel__next-btn {
  font-size: 1.4rem;
