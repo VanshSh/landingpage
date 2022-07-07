@@ -40,8 +40,8 @@ const UserReviewCarousel = () => {
                     animationDuration={1500}
                     infinite
                     autoPlayInterval={1000}
-                    disableDotsControls={false}
-                    disableButtonsControls={true}
+                    disableDotsControls
+                    disableButtonsControls={false}
                     responsive={responsive}
                     items={reviews}
                     autoPlay
