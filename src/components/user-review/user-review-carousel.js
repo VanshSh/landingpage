@@ -5,18 +5,18 @@ import UserReview from './user-review'
 const UserReviewCarousel = () => {
     const items = [
         {
-            name: 'Raunak',
-            review: `"Now&Me is a great platform to connect with people who genuinely care"`,
+            name: 'Nupur',
+            review: `"I joined nowandme long ago...and tbh this site has helped me a lotttt during my bad days like even when i had no one to talk to i wasn't alone...people helping each other there in tough situations and spreading positivity."`,
             id: 1,
         },
         {
-            name: 'Nikhil',
-            review: `"I was really lonely and sad, but then I found Now&Me and people who genuinely care about how i feel."`,
+            name: 'Surbhi',
+            review: `"A friend who is in an almost abusive household asked me if there was a place where she could vent/rant anonymously and it didn't take me a minute to redirect her to @nowandme."`,
             id: 2,
         },
         {
-            name: 'Vansh',
-            review: `"I was really lonely and sad, but then I found Now&Me and people who genuinely care about how i feel."`,
+            name: 'Akash MP',
+            review: `"Ever thought this app is crazy as heaven? Everyone are speaking their heart out."`,
             id: 3,
         },
     ]
