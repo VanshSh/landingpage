@@ -38,7 +38,7 @@ const Blogs = (props) => {
                     </div>
                 </div>
                 <div className='text-center'>
-                    {desc.slice(0, 100)}
+                    {desc.slice(0, 80)}
                     <span className='text-red-300'> read more..</span>
                 </div>
                 <div className='text-gray-400 text-center flex flex-1 justify-center items-center gap-x-3 mt-3'>
