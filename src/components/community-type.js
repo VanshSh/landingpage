@@ -8,35 +8,32 @@ const CommunityType = () => {
                 Now&Me is where people come together to have the most authentic
                 and meaningful conversations
             </p>
-            <div className='mt-12 mb-10 flex w-full justify-evenly font-normal items-center flex-wrap '>
-                <div className='mt-12 mb-10 flex w-full justify-evenly font-normal items-center  flex-wrap '>
-                    <div className='flex flex-col items-center'>
-                        <div className='bg-[#fff6f3] p-10 text-4xl rounded-full mb-5 w-fit '>
-                            <span>🧑‍💻</span>
-                        </div>
-                        <div className='text-center text-xl'>Career help</div>
+
+            <div className='mt-12 mb-10 flex w-full justify-evenly font-normal gap-y-10 items-center  flex-wrap '>
+                <div className='flex flex-col items-center'>
+                    <div className='bg-[#fff6f3] p-10 text-4xl rounded-full mb-5 w-fit '>
+                        <span>🧑‍💻</span>
                     </div>
-                    <div className='flex flex-col items-center'>
-                        <div className='bg-[#fff6f3] p-10 text-4xl rounded-full mb-5 w-fit '>
-                            <span>🧑‍💻</span>
-                        </div>
-                        <div className='text-center text-xl'>Fitness plans</div>
+                    <div className='text-center text-xl'>Career help</div>
+                </div>
+                <div className='flex flex-col items-center'>
+                    <div className='bg-[#fff6f3] p-10 text-4xl rounded-full mb-5 w-fit '>
+                        <span>🧑‍💻</span>
                     </div>
-                    <div className='flex flex-col items-center'>
-                        <div className='bg-[#fff6f3] p-10 text-4xl rounded-full mb-5 w-fit '>
-                            <span>🧑‍💻</span>
-                        </div>
-                        <div className='text-center text-xl'>
-                            One-sided love
-                        </div>
+                    <div className='text-center text-xl'>Fitness plans</div>
+                </div>
+                <div className='flex flex-col items-center'>
+                    <div className='bg-[#fff6f3] p-10 text-4xl rounded-full mb-5 w-fit '>
+                        <span>🧑‍💻</span>
                     </div>
-                    <div className='flex flex-col items-center'>
-                        <div className='bg-[#fff6f3] p-10 text-4xl rounded-full mb-5 w-fit '>
-                            <span>🧑‍💻</span>
-                        </div>
-                        <div className='text-center text-xl'>
-                            Deeply emotional things
-                        </div>
+                    <div className='text-center text-xl'>One-sided love</div>
+                </div>
+                <div className='flex flex-col items-center'>
+                    <div className='bg-[#fff6f3] p-10 text-4xl rounded-full mb-5 w-fit '>
+                        <span>🧑‍💻</span>
+                    </div>
+                    <div className='text-center text-xl'>
+                        Deeply emotional things
                     </div>
                 </div>
             </div>
@@ -45,36 +42,3 @@ const CommunityType = () => {
 }
 
 export default CommunityType
-
-{
-    /* <div className='mt-12 mb-10 flex w-full justify-evenly font-normal items-center  flex-wrap '>
-<div>
-    <div className='bg-[#fff6f3] p-10 text-4xl rounded-full mb-5 '>
-        <span>🧑‍💻</span>
-    </div>
-    <div className='text-center text-xl'>Career help</div>
-</div>
-                <div>
-                    <div className='bg-[#fff6f3] p-10 text-4xl rounded-full mb-5 '>
-                        <span>🧑 </span>
-                    </div>
-                    <div className='text-center text-xl'>Fitness plans</div>
-                </div>
-                <div>
-                    <div className='bg-[#fff6f3] p-10 text-4xl rounded-full mb-5 '>
-                        <span>🧑‍💻</span>
-                    </div>
-                    <div className='text-center text-xl px-3'>
-                        One-sided love
-                    </div>
-                </div>
-                <div>
-                    <div className='bg-[#fff6f3] p-10 text-4xl rounded-full mb-5 '>
-                        <span>🧑‍💻</span>
-                    </div>
-                </div>
-                <div className='text-center text-xl'>
-                    Deeply emotional things
-                </div>
-            </div> */
-}

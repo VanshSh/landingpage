@@ -21,7 +21,7 @@ const WhatWeDo = () => {
                 </section>
                 <section className=' px-2 py-10 text-center'>
                     <h2 className='text-center text-[#ff6d42] m-auto w-fit px-4 font-bold mb-3 text-6xl mt-12  '>
-                        Anonymous postings
+                        Anonymous
                     </h2>
                     <p className='mt-4 lg:text-xl w-fit m-auto lg:w-2/3 text-center mb-9 '>
                         So you can do YOU. Not your job, the number of followers
