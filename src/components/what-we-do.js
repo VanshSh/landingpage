@@ -13,7 +13,7 @@ const WhatWeDo = () => {
                     </h2>
                     <p className='mt-4 lg:text-xl w-fit m-auto lg:w-2/3 text-center mb-[50px] '>
                         Beyond chatting, build personal connections with people
-                        who understand and care.
+                        who understand and care
                     </p>
                     <div className='w-[280px] height-[400px]  text-center my-0 mx-auto'>
                         <Image src={Share} alt='Share' />
@@ -21,11 +21,11 @@ const WhatWeDo = () => {
                 </section>
                 <section className=' px-2 py-10 text-center'>
                     <h2 className='text-center text-[#ff6d42] m-auto w-fit px-4 font-bold mb-3 text-6xl mt-12  '>
-                        Anonymous
+                        Anonymity
                     </h2>
                     <p className='mt-4 lg:text-xl w-fit m-auto lg:w-2/3 text-center mb-9 '>
-                        So you can do YOU. Not your job, the number of followers
-                        or social status, define who you are
+                        So you can do YOU. Not your job, nor the number of
+                        followers or social status, define who you are.
                     </p>
                     <div className='w-[280px] height-[400px] text-center my-0 mx-auto'>
                         <Image src={Comment} alt='Comments' />
@@ -37,8 +37,7 @@ const WhatWeDo = () => {
                     </h2>
                     <p className='mt-4 lg:text-xl w-fit m-auto lg:w-2/3 text-center mb-9 '>
                         The real action is always in the comments! Comforting
-                        words, anecdotes from lived experiences & the feeling of
-                        solidarity.
+                        words or anecdotes from lived experiences.
                     </p>
                     <div className='w-[280px] height-[400px] text-center my-0 mx-auto'>
                         <Image src={Group} alt='Groups' />
@@ -50,7 +49,7 @@ const WhatWeDo = () => {
                     </h2>
                     <p className='mt-4 lg:text-xl w-fit m-auto lg:w-2/3 text-center mb-9 '>
                         Create your community of like-minded friends to talk
-                        about your special interests.
+                        about your special interests. True solidarity.
                     </p>
                     <div className='w-[280px] height-[400px] text-center my-0 mx-auto'>
                         <Image src={Group} alt='Events' />

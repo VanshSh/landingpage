@@ -8,7 +8,7 @@ const Blogs = (props) => {
     return (
         <Link href={link}>
             <div className=' m-4 cursor-pointer'>
-                <div className=' relative'>
+                <div className='text-center relative'>
                     <a>
                         <Image
                             src={img.src}
