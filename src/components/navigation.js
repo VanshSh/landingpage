@@ -42,11 +42,11 @@ const Navigation = () => {
 
                     <div
                         className={`${
-                            isNavOpen ? 'showMenuNav' : 'hideMenuNav'
-                        } pt-56`}
+                            !isNavOpen && 'hidden'
+                        }  bg-black w-full h-full z-10 fixed top-0 left-0 text-white text-5xl font-bold flex  flex-1 flex-col  justify-between items-center`}
                     >
                         <div
-                            className='absolute top-0 left-0 px-8 py-8'
+                            className='absolute top-0 left-0 px-8 py-8 cursor-pointer'
                             onClick={() => setIsNavOpen(false)}
                         >
                             <svg
@@ -62,7 +62,7 @@ const Navigation = () => {
                                 <line x1='6' y1='6' x2='18' y2='18' />
                             </svg>
                         </div>
-                        <ul className='flex flex-col items-center gap-7 justify-between min-h-[250px] '>
+                        <ul className='flex mt-56 p-10 flex-col items-center gap-7 justify-between min-h-[250px] '>
                             <li>
                                 <Link href='/'>
                                     <a>Home</a>
@@ -126,28 +126,6 @@ const Navigation = () => {
                     Download the App
                 </a>
             </div>
-            <style>{`
-  .hideMenuNav {
-    display: none;
-  }
-  .showMenuNav {
-    display: block;
-    position: fixed;
-    background: black;
-    width: 100%;
-    height: 100vh;
-    top: 0;
-    left: 0;
-    color:white;
-    z-index: 10;
-    font-size:3rem;
-    font-weight:bold;
-    display: flex;
-    flex-direction:column;
-    justify-content: space-between;
-    align-items: center;
-  }
-`}</style>
         </nav>
     )
 }
