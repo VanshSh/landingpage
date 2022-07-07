@@ -1,7 +1,7 @@
 const NewsReview = () => {
     return (
         <section className=' px-4 py-8'>
-            <div className='grid items-center max-w-5xl grid-cols-2 gap-12 mx-auto mt-16 md:gap-0  md:space-x-10 md:flex'>
+            <div className='grid items-center max-w-5xl flex-wrap  grid-cols-2 gap-12 mx-auto mt-16 md:gap-0  md:space-x-10 md:flex'>
                 <a
                     href='https://www.vogue.in/wellness/content/verified-mental-health-helplines-and-services-pan-india-suicide-helplines-therapists-counsellors'
                     target='_blank'
@@ -129,6 +129,7 @@ const NewsReview = () => {
                         ></path>
                     </svg>
                 </a>
+
                 <a
                     target='_blank'
                     rel='noreferrer'

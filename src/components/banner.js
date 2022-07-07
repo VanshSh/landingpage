@@ -12,7 +12,7 @@ const Banner = () => {
                         Now&Me is your warm, caring home on the internet
                     </h1>
                 </div>
-                <p className=' mt-6 text-xl text-[#262626]'>
+                <p className=' mt-6 text-xl text-[#262626] text-center lg:text-start md:text-start sm:text-start'>
                     Conversations about things that matter to you. Your safe
                     space to talk about your feelings, or simply how your day
                     went!
