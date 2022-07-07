@@ -8,16 +8,16 @@ const Banner = () => {
         <header className='flex flex-1 bg-[#fff6f3] lg:flex-row flex-col justify-start lg:justify-center lg:items-center pt-5 lg:px-24 px-5 '>
             <div className='flex flex-col justify-start max-w-3xl '>
                 <div className='text-center lg:text-start md:text-start sm:text-start'>
-                    <h1 className='text-5xl  leading-[58px] font-bold  text-[#ff6d42]'>
-                        Now&Me is your warm, caring home on the internet.
+                    <h1 className='text-5xl  leading-[55px] font-extrabold  text-[#ff6d42]'>
+                        Now&Me is your warm, caring home on the internet
                     </h1>
                 </div>
-                <p className=' mt-10 text-xl text-[#262626]'>
+                <p className=' mt-6 text-xl text-[#262626]'>
                     Conversations about things that matter to you. Your safe
                     space to talk about your feelings, or simply how your day
                     went!
                 </p>
-                <div className='flex w-fit justify-between mt-12 gap-x-4 '>
+                <div className='flex w-fit justify-between mt-9 gap-x-4 '>
                     <a
                         href='https://apps.apple.com/in/app/now-me-mental-health-community/id1587888702'
                         target='_blank'
