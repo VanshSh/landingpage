@@ -9,9 +9,8 @@ const Banner = () => {
             <div className='flex flex-col justify-start max-w-3xl '>
                 <div className='text-center lg:text-start md:text-start sm:text-start'>
                     <h1 className='text-5xl  leading-[58px] font-bold  text-[#ff6d42]'>
-                        With over a million conversations about things that
-                        matter to you, Now&Me is your warm, caring home on the
-                        internet.
+                        million conversations about things that matter to you,
+                        Now&Me is your warm, caring home on the internet.
                     </h1>
                 </div>
                 <p className=' mt-10 text-xl text-[#262626]'>

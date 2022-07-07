@@ -1,12 +1,12 @@
 const NewsReview = () => {
     return (
         <section className=' px-4 py-8'>
-            <div className='grid items-center max-w-3xl grid-cols-2 gap-12 mx-auto mt-16 md:gap-0  md:space-x-10 md:flex'>
+            <div className='grid items-center max-w-5xl grid-cols-2 gap-12 mx-auto mt-16 md:gap-0  md:space-x-10 md:flex'>
                 <a
                     href='https://www.vogue.in/wellness/content/verified-mental-health-helplines-and-services-pan-india-suicide-helplines-therapists-counsellors'
                     target='_blank'
                     rel='noreferrer'
-                    className='flex items-center justify-center text-gray-400 transition hover:text-gray-900 :text-warm-gray-100'
+                    className='flex items-center justify-center text-gray-900 '
                 >
                     <svg
                         className='h-7'
@@ -26,7 +26,7 @@ const NewsReview = () => {
                     target='_blank'
                     rel='noreferrer'
                     href='https://www.gqindia.com/live-well/content/covid-19-and-mental-health-how-to-manage-self-esteem-with-pay-cuts-job-loss-and-no-social-life'
-                    className='flex items-center justify-center text-gray-400 transition hover:text-gray-900 :text-warm-gray-100'
+                    className='flex items-center justify-center text-gray-900 '
                 >
                     <svg
                         className='h-7'
@@ -43,10 +43,58 @@ const NewsReview = () => {
                     </svg>
                 </a>
                 <a
+                    href='https://www.idiva.com/news-opinion/womens-issues/bani-singh-and-drishti-gupta-of-now-me/18018543'
+                    target={'_blank'}
+                    rel={'noreferrer'}
+                    className='flex items-center justify-center text-gray-900'
+                >
+                    <svg
+                        xmlns='http://www.w3.org/2000/svg'
+                        className='h-7'
+                        viewBox='0 0 114 40'
+                    >
+                        <g fill='none' fillRule='evenodd'>
+                            <path
+                                fill='#000'
+                                fillRule='nonzero'
+                                d='M82.243 20.277l25.236-14.123 6.213 5.644L103.166 40l-6.23-5.662 2.253-5.79-6.038-5.48-5.21 3.103-5.544-5.049 2.64 14.45-7.286 4.21-21.544-20.035 7.568-4.374 12.216 11.941-3.52-16.968 7.198-4.156 2.574 14.087zm-34.99-1.24c.312 1.352.43 2.706.347 4.049a13.82 13.82 0 0 1-2.429 7.15c-1.46 2.124-3.502 3.902-6.09 5.281-.81.436-1.989 1.071-3.52 1.87a121.118 121.118 0 0 1-3.59 1.833l-1.092.526-11.876-24.247-11.526 23.87L0 35.844l11.83-24.502 6.716 3.166 1.051-.587c.968-.544 2.394-1.288 4.26-2.268 1.883-.98 3.326-1.724 4.294-2.196 2.341-1.18 4.682-1.779 6.935-1.724 2.288.054 4.4.744 6.284 2.05 1.376.974 2.577 2.25 3.58 3.82l7.246-3.073 11.308 26.032-7.294 3.093-8.957-20.619zm-7.767 5.81c.528-1.725.3-3.558-.721-5.645-.916-1.833-2.007-2.958-3.362-3.43-1.338-.453-2.87-.236-4.647.69l-1.9.98 5.878 11.996 1.056-.545c1.954-1.016 3.168-2.34 3.696-4.047zm64.332-8.113l-4.119 2.432 2.34 2.123 1.779-4.555z'
+                            ></path>
+                            <ellipse
+                                cx='52.512'
+                                cy='5.431'
+                                fill='#FF5076'
+                                rx='5.279'
+                                ry='5.41'
+                            ></ellipse>
+                        </g>
+                    </svg>
+                </a>
+                <a
+                    href='https://lbb.in/mumbai/now-and-me-mental-health-online/'
+                    target={'_blank'}
+                    rel={'noreferrer'}
+                    className='flex items-center justify-center text-gray-900'
+                >
+                    <svg
+                        xmlns='http://www.w3.org/2000/svg'
+                        viewBox='0 0 1055.62 315'
+                        className='h-7'
+                    >
+                        <path
+                            d='M377.46 272.7H508.4a8 8 0 0 1 8 8v25.8a8 8 0 0 1-8 8H325.07a8 8 0 0 1-8-8V8.5a8 8 0 0 1 8-8h36.3a8 8 0 0 1 8 8v256.15a8 8 0 0 0 8.09 8.05zM543.2 306.5V8.5a8 8 0 0 1 8-8H646q52 0 81.28 21.47t29.32 64.18a63.1 63.1 0 0 1-11.75 37.32q-11.72 16.53-32.63 25.19 30.18 5 46.46 26.1T775 224.38q0 44.23-28.89 67.2t-79.77 23h-115.1a8 8 0 0 1-8.04-8.08zm52.39-181.86a8 8 0 0 0 8 8h48q24.36 0 38.48-11.54t14.12-32.68q0-23.3-14.88-34.62T646 42.52h-42.4a8 8 0 0 0-8 8zm0 55.14v84.86a8 8 0 0 0 8 8h62.71q27.16 0 41.83-12.4t14.66-35.92q0-23.73-14.44-37.75t-40.53-14.88h-64.19a8 8 0 0 0-8.04 8.1zM805 306.5V8.5a8 8 0 0 1 8-8h94.79q52 0 81.28 21.47t29.32 64.18a63.1 63.1 0 0 1-11.75 37.32Q994.95 140 974 148.66q30.18 5 46.46 26.1t16.28 49.62q0 44.23-28.89 67.2t-79.77 23H813.06a8 8 0 0 1-8.06-8.08zm52.4-181.86a8 8 0 0 0 8 8h48q24.36 0 38.48-11.54T966 88.42q0-23.3-14.88-34.62t-43.27-11.28h-42.4a8 8 0 0 0-8 8zm0 55.14v84.86a8 8 0 0 0 8 8h62.67q27.16 0 41.83-12.4t14.66-35.92q0-23.73-14.44-37.75t-40.53-14.88h-64.14a8 8 0 0 0-8.05 8.1zM64.63 185.32s10.53 10 23 0l160-128.2V22.9A22.45 22.45 0 0 0 225.2.45h-183A22.52 22.52 0 0 0 19.78 22.9v120.18z'
+                            fill='#121213'
+                        ></path>
+                        <path
+                            d='M91.29 219.9s-14.71 13.33-28.59 0l-43.1-34.8v113.1c0 6.28 4 11.58 9.56 14.47a16.54 16.54 0 0 0 17.09-1.08l81.84-56.47a10 10 0 0 1 11.36 0l81.87 56.47a16.74 16.74 0 0 0 9.49 3 17.17 17.17 0 0 0 7.91-1.92A16.74 16.74 0 0 0 248 298V97z'
+                            fill='#121213'
+                        ></path>
+                    </svg>
+                </a>
+                <a
                     target='_blank'
                     rel='noreferrer'
                     href='https://www.instagram.com/p/B7LDQpNp5mT/'
-                    className='flex items-center justify-center text-gray-400 transition hover:text-gray-900 :text-warm-gray-100'
+                    className='flex items-center justify-center text-gray-900 '
                 >
                     <svg
                         className='h-7'
@@ -64,7 +112,7 @@ const NewsReview = () => {
                     target='_blank'
                     rel='noreferrer'
                     href='https://yourstory.com/socialstory/2020/08/graduates-online-platform-talk-mental-health/amp?utm_pageloadtype=scroll'
-                    className='flex items-center justify-center text-gray-400 transition hover:text-gray-900 :text-warm-gray-100'
+                    className='flex items-center justify-center text-gray-900 '
                 >
                     <svg
                         className='h-7'
@@ -84,7 +132,7 @@ const NewsReview = () => {
                     target='_blank'
                     rel='noreferrer'
                     href='https://timesofindia.indiatimes.com/india/collective-healing-in-times-of-resistance/articleshow/73241958.cms'
-                    className='flex items-center justify-center text-gray-400 transition hover:text-gray-900 :text-warm-gray-100'
+                    className='flex items-center justify-center text-gray-900 '
                 >
                     <svg
                         className='h-7'
@@ -102,7 +150,7 @@ const NewsReview = () => {
                     target='_blank'
                     rel='noreferrer'
                     href='https://techcrunch.com/2020/04/26/tech-for-good-during-covid-19-therapy-for-nurses-baby-food-and-an-online-diary/'
-                    className='flex items-center justify-center text-gray-400 transition hover:text-gray-900 :text-warm-gray-100'
+                    className='flex items-center justify-center text-gray-900'
                 >
                     <svg
                         className='h-7'

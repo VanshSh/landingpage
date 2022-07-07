@@ -55,7 +55,12 @@ const CommunityBlogs = () => {
     }
     return (
         <section>
-            <p className='mt-10 text-center text-5xl font-bold'>Community</p>
+            <p className='mt-28 text-center text-3xl font-bold align-middle'>
+                Community{' '}
+                <span className='bg-gray-200 text-gray-500 rounded px-2 text-center '>
+                    ...
+                </span>
+            </p>
             <div className='mx-12'>
                 <div className='pt-6'>
                     <AliceCarousel
@@ -64,7 +69,7 @@ const CommunityBlogs = () => {
                         infinite
                         autoPlayInterval={1000}
                         disableDotsControls
-                        disableButtonsControls
+                        disableButtonsControls={false}
                         responsive={responsive}
                         items={blogsComponent}
                         autoPlay
