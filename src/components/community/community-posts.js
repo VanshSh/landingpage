@@ -1,6 +1,6 @@
 import AliceCarousel from 'react-alice-carousel'
 import 'react-alice-carousel/lib/alice-carousel.css'
-import Blogs from './blogs'
+import Blogs from './posts'
 import PostImg1 from '../../../public/communitypic1.jpeg'
 import PostImg2 from '../../../public/communitypic2.jpeg'
 import PostImg3 from '../../../public/communitypic3.jpeg'

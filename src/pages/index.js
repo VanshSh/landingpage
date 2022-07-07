@@ -1,5 +1,5 @@
 import Banner from '../components/banner'
-import CommunityBlogs from '../components/community/community-blogs'
+import CommunityPosts from '../components/community/community-posts'
 import CommunityType from '../components/community-type'
 import Footer from '../components/footer'
 import Message from '../components/message'
@@ -14,7 +14,7 @@ export default function Home() {
             <Navigation />
             <Banner />
             <CommunityType />
-            <CommunityBlogs />
+            <CommunityPosts />
             <NewsReview />
             <Message />
             <WhatWeDo />
