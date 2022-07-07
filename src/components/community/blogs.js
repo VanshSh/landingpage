@@ -12,7 +12,7 @@ const Blogs = (props) => {
                         <Image
                             src={img.src}
                             alt={title}
-                            width={400}
+                            width={360}
                             height={200}
                         />
                     </a>
