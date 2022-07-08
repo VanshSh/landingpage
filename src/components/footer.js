@@ -73,40 +73,6 @@ const Footer = () => {
                     <BsYoutube />
                 </a>
             </div>
-
-            <div className='w-fit  m-auto my-10 flex flex-1 flex-wrap justify-center gap-x-20'>
-                <div className='text-white  text-center py-5 '>
-                    <p className='px-5'>Careers</p>
-                    <a
-                        className='font-bold px-5'
-                        href='mailto:work@nowandme.com'
-                        rel=' noreferrer'
-                    >
-                        work@nowandme.com
-                    </a>
-                </div>
-
-                <div className='text-white  text-center py-5 '>
-                    <p className='px-5'>Contact us</p>
-                    <a
-                        className='font-bold px-5'
-                        href='mailto:community@nowandme.com'
-                        rel=' noreferrer'
-                    >
-                        community@nowandme.com
-                    </a>
-                </div>
-                <div className='text-white  text-center py-5 '>
-                    <p className='px-5'>Something else?</p>
-                    <a
-                        className='font-bold px-5'
-                        href='mailto:info@nowandme.com'
-                        rel=' noreferrer'
-                    >
-                        info@nowandme.com
-                    </a>
-                </div>
-            </div>
             <div>
                 <ul className='flex-1  flex justify-center items-end gap-x-5  flex-wrap '>
                     <li className='mb-5'>
@@ -140,7 +106,7 @@ const Footer = () => {
                     </li>
                     <li className='mb-5'>
                         <a
-                            href='https://nowandme.com/contacts'
+                            href='https://nowandme.com/contact'
                             target='_blank'
                             rel='noreferrer'
                         >
