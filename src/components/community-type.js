@@ -230,7 +230,7 @@ const CommunityType = () => {
                                 fill='#ffffff'
                                 y='-37.499999'
                                 height='449.999989'
-                                fill-opacity='1'
+                                fillOpacity='1'
                             />
                             <rect
                                 x='-37.5'
