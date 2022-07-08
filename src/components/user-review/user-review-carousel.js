@@ -33,8 +33,8 @@ const UserReviewCarousel = () => {
     }
 
     return (
-        <section className='bg-[#fff6f3]'>
-            <div className=' lg:mx-44 py-10'>
+        <section className='bg-[#fff6f3] py-10'>
+            <div className=' lg:mx-44'>
                 <AliceCarousel
                     mouseTracking
                     animationDuration={1500}

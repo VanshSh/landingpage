@@ -5,7 +5,7 @@
 
 
 * {
- /* border: 1px solid red */
+ border: 1px solid red
 }
 
 .alice-carousel__prev-btn-item,
@@ -16,8 +16,7 @@
 .alice-carousel__prev-btn,
 .alice-carousel__next-btn {
  font-size: 1.4rem;
- margin-top: 2rem;
-
+ margin-top: 1.2rem;
 
 }
 
