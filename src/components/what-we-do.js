@@ -14,7 +14,7 @@ const WhatWeDo = () => {
                     </h2>
                     <p className='mt-4 lg:text-xl w-fit m-auto lg:w-2/3 text-center mb-[50px] px-3 lg:px-0 '>
                         Beyond chatting, build personal connections with the
-                        people who understand and care.
+                        people who understand and care about you.
                     </p>
                     <div>
                         <Image
