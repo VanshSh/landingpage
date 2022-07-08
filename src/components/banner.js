@@ -46,7 +46,7 @@ const Banner = () => {
                 </div>
             </div>
             <div className='mt-12 lg:ml-12 pb-14'>
-                <Image src={Hero} alt='Hero' height={'521px'} width={'473px'} />
+                <Image src={Hero} alt='Hero' height={'512px'} width={'473px'} />
             </div>
         </header>
     )

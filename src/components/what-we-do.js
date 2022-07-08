@@ -1,7 +1,8 @@
 import Image from 'next/image'
-import Comment from '../../public/Comment.png'
-import Group from '../../public/Group.jpg'
-import Share from '../../public/Share.jpg'
+import Connections from '../../public/Connections.png'
+import Group from '../../public/Group.png'
+import Anonymity from '../../public/Anonymity.png'
+import Discussions from '../../public/Discussions.png'
 
 const WhatWeDo = () => {
     return (
@@ -15,8 +16,12 @@ const WhatWeDo = () => {
                         Beyond chatting, build personal connections with people
                         who understand and care
                     </p>
-                    <div className='w-[280px] height-[400px]  text-center my-0 mx-auto'>
-                        <Image src={Share} alt='Share' />
+                    <div>
+                        <Image
+                            src={Connections}
+                            alt='Connections'
+                            className='w-fit m-auto lg:w-2/3'
+                        />
                     </div>
                 </section>
                 <section className=' px-2 py-10 text-center'>
@@ -27,8 +32,12 @@ const WhatWeDo = () => {
                         So you can do YOU. Not your job, nor the number of
                         followers or social status, define who you are.
                     </p>
-                    <div className='w-[280px] height-[400px] text-center my-0 mx-auto'>
-                        <Image src={Comment} alt='Comments' />
+                    <div className='mt-12'>
+                        <Image
+                            src={Anonymity}
+                            alt='Anonymity'
+                            className='w-fit m-auto lg:w-2/3 '
+                        />
                     </div>
                 </section>
                 <section className=' px-2 py-10 text-center'>
@@ -39,8 +48,12 @@ const WhatWeDo = () => {
                         The real action is always in the comments! Comforting
                         words or anecdotes from lived experiences.
                     </p>
-                    <div className='w-[280px] height-[400px] text-center my-0 mx-auto'>
-                        <Image src={Group} alt='Groups' />
+                    <div>
+                        <Image
+                            src={Discussions}
+                            alt='Discussions'
+                            className='w-fit m-auto lg:w-2/3'
+                        />
                     </div>
                 </section>
                 <section className=' px-2 py-10 text-center'>
@@ -51,8 +64,12 @@ const WhatWeDo = () => {
                         Create your community of like-minded friends to talk
                         about your special interests. True solidarity.
                     </p>
-                    <div className='w-[280px] height-[400px] text-center my-0 mx-auto'>
-                        <Image src={Group} alt='Events' />
+                    <div>
+                        <Image
+                            src={Group}
+                            alt='Group'
+                            className='w-fit m-auto lg:w-2/3'
+                        />
                     </div>
                 </section>
             </div>
