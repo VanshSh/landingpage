@@ -26,7 +26,7 @@ const Navigation = () => {
     }, [])
     return (
         <nav className='flex flex-1 items-center  xl:justify-center  justify-between gap-5 px-3 z-40  sticky bg-[#fff6f3] top-0 '>
-            <div className='order-1 lg:-order-2 px-4 flex justify-center items-center '>
+            <div className='order-1 lg:-order-2  flex justify-center items-center '>
                 <Image src={Logo} alt='NowandMe Logo' width={80} height={80} />
             </div>
             <div className='lg:grow  '>
