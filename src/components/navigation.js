@@ -26,13 +26,13 @@ const Navigation = () => {
     }, [])
     return (
         <nav className='flex flex-1 items-center  xl:justify-center  justify-between gap-5 px-3 z-40  sticky bg-[#fff6f3] top-0 '>
-            <div className='px-4  md:text-center justify-center  lg:text-start text-center   order-1 lg:-order-2 max-w-lg my-2'>
+            <div className='order-1 lg:-order-2 px-4 flex justify-center items-center '>
                 <Image src={Logo} alt='NowandMe Logo' width={80} height={80} />
             </div>
-            <div className='lg:grow mx-5 py-5'>
+            <div className='lg:grow  '>
                 <section className='MOBILE-MENU flex lg:hidden justify-start items-between'>
                     <div
-                        className='HAMBURGER-ICON space-y-2 py-3 order-2 lg:-order-1 w-fit md:justify-start'
+                        className='HAMBURGER-ICON space-y-2  order-2 lg:-order-1 w-fit md:justify-start'
                         onClick={() => setIsNavOpen((prev) => !prev)}
                     >
                         <span className='block h-0.5 w-8  bg-black'></span>
@@ -84,12 +84,11 @@ const Navigation = () => {
                                 </Link>
                             </li>
                         </ul>
-
                         <AppInstall />
                     </div>
                 </section>
 
-                <ul className='DESKTOP-MENU hidden text-xl  space-x-8 lg:flex gap-y-9  flex-1 justify-end '>
+                <ul className='DESKTOP-MENU hidden text-xl  gap-x-8 lg:flex gap-y-9  flex-1 justify-end '>
                     <li>
                         <Link href='/'>
                             <a>Home</a>
