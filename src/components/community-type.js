@@ -4,7 +4,7 @@ import Link from 'next/link'
 const CommunityType = () => {
     return (
         <section className='my-16 lg:mx-52 md:mx-16 mx-5'>
-            <p className='text-[#800000] text-center font-bold lg:text-[40px] md:text-[30px] text-[25px]  my-10 px-1 py-4'>
+            <p className='text-[#800000] text-center font-bold lg:text-[40px] md:text-[30px] text-[25px]  my-10 lg:px-20 md:px-10 sm:px-10 px-1 py-4'>
                 Now&Me is where people come together to have the most authentic
                 and meaningful conversations
             </p>
