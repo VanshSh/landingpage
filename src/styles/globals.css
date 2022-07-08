@@ -4,10 +4,6 @@
 
 
 
-* {
- /* border: 1px solid red */
-}
-
 .alice-carousel__prev-btn-item,
 .alice-carousel__next-btn-item {
  color: #ff6d42 !important;

@@ -13,10 +13,10 @@ const WhatWeDo = () => {
                         Connections
                     </h2>
                     <p className='mt-4 lg:text-xl w-fit m-auto lg:w-2/3 text-center mb-[50px] px-3 lg:px-0 '>
-                        Beyond chatting, build personal connections with people
-                        who understand and care
+                        Beyond chatting, build personal connections with the
+                        people who understand and care.
                     </p>
-                    <div className='mt-16'>
+                    <div>
                         <Image
                             src={Connections}
                             alt='Connections'
@@ -28,9 +28,9 @@ const WhatWeDo = () => {
                     <h2 className='text-center text-[#ff6d42] m-auto w-fit px-4 font-bold mb-3 text-6xl mt-12'>
                         Anonymity
                     </h2>
-                    <p className='mt-4 lg:text-xl w-fit m-auto lg:w-2/3 text-center mb-9 px-3 lg:px-0 '>
+                    <p className='mt-4 lg:text-xl w-fit m-auto lg:w-2/3 text-center mb-[50px] px-3 lg:px-0 '>
                         So you can do YOU. Not your job, nor the number of
-                        followers or social status, define who you are.
+                        followers or social status, define who you are
                     </p>
                     <div>
                         <Image
