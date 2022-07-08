@@ -23,5 +23,3 @@ export default function Home() {
         </>
     )
 }
-
-// className = 'md:bg-gray-900 sm:bg-green-500 lg:bg-orange-300 bg-pink-700'
