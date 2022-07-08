@@ -5,14 +5,14 @@ import IOSBtn from '../../public/iOSLinkBtn.png'
 
 const Banner = () => {
     return (
-        <header className='flex flex-1 bg-[#fff6f3] lg:flex-row flex-col justify-start lg:justify-center lg:items-center pt-5 lg:px-24 px-5 '>
+        <header className='flex flex-1 bg-[#fff6f3] lg:flex-row flex-col justify-start lg:justify-center lg:items-center pt-5 lg:px-24 '>
             <div className='flex flex-col justify-start max-w-3xl '>
                 <div className='text-center lg:text-start md:text-start sm:text-start'>
                     <h1 className='text-5xl  leading-[55px] font-extrabold  text-[#ff6d42]'>
                         Now&Me is your warm, caring home on the internet
                     </h1>
                 </div>
-                <p className=' mt-6 text-xl text-[#262626] text-center lg:text-start md:text-start sm:text-start'>
+                <p className=' mt-6 text-xl text-[#262626] text-center lg:text-start md:text-start sm:text-start lg:px-0 px-3'>
                     Conversations about things that matter to you. Your safe
                     space to talk about your feelings, or simply how your day
                     went!
@@ -45,8 +45,8 @@ const Banner = () => {
                     </a>
                 </div>
             </div>
-            <div className='mt-12 lg:ml-3 pb-14'>
-                <Image src={Hero} alt='Hero' height={510} width={471} />
+            <div className='mt-12 lg:ml-3 pb-14 px-10'>
+                <Image src={Hero} alt='Hero' height={510} width={500} />
             </div>
         </header>
     )
